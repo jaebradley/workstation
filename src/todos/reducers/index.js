@@ -1,6 +1,6 @@
 import {
   ADD_TODO,
-} from '../actions/types';
+} from 'Todos/actions/types';
 
 const todos = (state = [], action) => {
   switch (action.type) {

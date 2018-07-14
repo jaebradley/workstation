@@ -22,7 +22,11 @@ const styles = theme => ({
 });
 
 const Todo = ({
-  id, name, description, toggleTodo, isChecked,
+  id,
+  name,
+  description,
+  toggleTodo,
+  isChecked,
 }) => (
   <ListItem
     key={id}
